@@ -1,0 +1,59 @@
+
+vector_set_size(vec, size)
+For internal use, sets the size variable of the vector
+为内部使用，设置向量的大小变量
+
+vector_set_capacity(vec, size)
+For internal use, sets the capacity variable of the vector
+为内部使用，设置向量的容量变量
+
+vector_capacity(vec)
+gets the current capacity of the vector
+获取向量的当前容量
+
+vector_size(vec)
+gets the current size of the vector
+获取向量的当前大小
+
+vector_empty(vec)
+returns non-zero if the vector is empty
+如果向量为空，则返回非零
+
+vector_grow(vec, count)
+For internal use, ensures that the vector is at least <count> elements big
+对于内部使用，确保矢量至少是&lt;元素大
+
+vector_pop_back(vec)
+removes the last element from the vector
+从向量中删除最后一个元素
+
+vector_erase(vec, i)
+removes the element at index i from the vector
+从向量中删除索引i处的元素
+
+vector_free(vec)
+frees all memory associated with the vector
+释放与该向量相关的所有内存
+
+vector_begin(vec)
+returns an iterator to first element of the vector
+返回向量的第一个元素的迭代器
+
+vector_end(vec)
+returns an iterator to one past the last element of the vector
+返回经过向量最后一个元素的迭代器
+
+vector_push_back(vec, value)
+adds an element to the end of the vector
+在向量的末尾添加一个元素
+
+
+
+
+
+
+
+
+
+
+
